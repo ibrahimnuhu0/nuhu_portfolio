@@ -7,7 +7,7 @@ const Navbar = ({ currentTheme, toggleTheme }) => {
     <header className="navbar" id="navbar">
       <div className="container">
         <div className="logo">
-          <a href="#hero">Nuhu.dev</a>
+          <a href="#hero">Home</a>
         </div>
         <nav className="nav-links">
           <a href="#about">About</a>

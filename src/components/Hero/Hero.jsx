@@ -4,7 +4,7 @@ import profile from "/assets/images/profile.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="hero">
       <div className="hero-content">
         <div className="hero-text">
           <h1>Hello, I'm <span>Ibrahim Nuhu</span></h1>
