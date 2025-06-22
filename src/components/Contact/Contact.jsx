@@ -11,22 +11,26 @@ const Contact = () => {
         </p>
 
         <form
-          action="https://formspree.io/f/your_form_id" // Replace with your Formspree endpoint
+          action="https://formspree.io/f/xpwrjvvy"
           method="POST"
           className="contact-form"
         >
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+
           <button type="submit">Send Message</button>
         </form>
 
         <div className="contact-info">
-          <p><strong>Email:</strong> ibrahim@example.com</p>
+          <p><strong>Email:</strong> ibrahimnuhu0@gmail.com</p>
           <p><strong>Location:</strong> Dhaka, Bangladesh</p>
           <div className="social-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/ibrahimnuhu0" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/ibrahim-nuhu-963b0512b/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>

@@ -1,8 +1,42 @@
 [
-  { "skill": "React.js", "level": 85 },
-  { "skill": "JavaScript", "level": 90 },
-  { "skill": "HTML5", "level": 95 },
-  { "skill": "CSS3", "level": 90 },
-  { "skill": "Git & GitHub", "level": 80 },
-  { "skill": "Responsive Design", "level": 85 }
+  {
+    "skill": "React.js",
+    "level": 90
+  },
+  {
+    "skill": "JavaScript (ES6+)",
+    "level": 85
+  },
+  {
+    "skill": "HTML5",
+    "level": 100
+  },
+  {
+    "skill": "CSS3",
+    "level": 100
+  },
+  {
+    "skill": "Node.js",
+    "level": 80
+  },
+  {
+    "skill": "Express.js",
+    "level": 75
+  },
+  {
+    "skill": "MongoDB",
+    "level": 70
+  },
+  {
+    "skill": "Git & GitHub",
+    "level": 100
+  },
+  {
+    "skill": "Python",
+    "level": 80
+  },
+  {
+    "skill": "Django",
+    "level": 90
+  }
 ]

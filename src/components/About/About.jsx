@@ -7,19 +7,16 @@ const About = () => {
       <div className="container">
         <h2 className="section-title">About Me</h2>
         <p className="about-text">
-          Hi! I'm Ibrahim Nuhu, a passionate Front-End Developer specializing in
-          building modern, fast, and responsive web applications using React
-          and JavaScript. I enjoy creating clean, user-friendly interfaces and
-          bringing designs to life.
+          I'm Ibrahim Nuhu, a dedicated Software Developer with a strong focus on building modern, scalable, and user-friendly web applications. 
+          My expertise spans across front-end technologies like React and JavaScript, as well as back-end tools including Node.js and Express.
         </p>
-        <h3 className="skills-title">My Skills</h3>
-        <ul className="skills-list">
-          <li>React.js</li>
-          <li>JavaScript (ES6+)</li>
-          <li>HTML5 & CSS3</li>
-          <li>Responsive Web Design</li>
-          <li>Git & GitHub</li>
-        </ul>
+        <p className="about-text">
+          I enjoy turning complex problems into intuitive digital experiences, and I’m constantly learning new technologies to sharpen my craft. 
+          Whether collaborating in a team or working independently, I bring a proactive mindset and a deep passion for technology.
+        </p>
+        <p className="about-text">
+          I'm currently open to internship and entry-level roles in software development, and I’m excited to contribute to impactful projects.
+        </p>
       </div>
     </section>
   );

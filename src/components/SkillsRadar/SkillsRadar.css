@@ -1,15 +1,32 @@
 .skills-radar {
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
   text-align: center;
-  background: #f9f9f9;
-  border-radius: 1rem;
-  margin: 3rem auto;
-  max-width: 800px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.skills-radar h2 {
-  font-size: 2rem;
+.skills-radar .container,
+.chart-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.section-description {
+  font-size: 1.1rem;
   margin-bottom: 2rem;
-  color: #222;
+  color: var(--text-color);
+}
+
+.chart-wrapper {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
 }

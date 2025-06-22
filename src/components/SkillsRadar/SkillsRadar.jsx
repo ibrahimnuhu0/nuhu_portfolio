@@ -1,21 +1,31 @@
-import React from 'react';
+import React from "react";
 import {
-  Radar, RadarChart, PolarGrid,
-  PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer
-} from 'recharts';
+  Radar,
+  RadarChart,
+  PolarGrid,
+  PolarAngleAxis,
+  PolarRadiusAxis,
+  ResponsiveContainer,
+} from "recharts";
+import skillsData from "../../assets/data/skills.json";
+import "./SkillsRadar.css";
 
-import skillsData from '../../assets/data/skills.json';
-import './SkillsRadar.css';
-
-const SkillsRadar = () => {
-  return (
-    <section className="skills-radar">
-      <h2>My Skills</h2>
+const SkillsRadar = () => (
+  <section className="skills-radar" id="skills">
+    <h2 className="section-title">My Skills</h2>
+    <p className="section-description">
+      A snapshot of my core technical strengths.
+    </p>
+    <div className="chart-wrapper">
       <ResponsiveContainer width="100%" height={400}>
         <RadarChart cx="50%" cy="50%" outerRadius="70%" data={skillsData}>
-          <PolarGrid />
-          <PolarAngleAxis dataKey="skill" />
-          <PolarRadiusAxis angle={30} domain={[0, 100]} />
+          <PolarGrid stroke="#ccc" />
+          <PolarAngleAxis dataKey="skill" tick={{ fill: "var(--text-color)" }} />
+          <PolarRadiusAxis
+            angle={30}
+            domain={[0, 100]}
+            stroke="var(--text-color)"
+          />
           <Radar
             name="Skill Level"
             dataKey="level"
@@ -25,8 +35,8 @@ const SkillsRadar = () => {
           />
         </RadarChart>
       </ResponsiveContainer>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default SkillsRadar;
