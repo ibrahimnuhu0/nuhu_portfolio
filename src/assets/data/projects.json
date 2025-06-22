@@ -1,20 +1,30 @@
 [
   {
     "id": 1,
-    "title": "Tindog",
-    "description": "Landing page for a Tinder-style app for dogs. Built using Bootstrap.",
-    "techStack": ["HTML", "CSS", "Bootstrap"],
-    "image": "/assets/images/tindog.png",
-    "liveLink": "https://your-tindog-link.netlify.app",
-    "codeLink": "https://github.com/yourusername/tindog"
+    "title": "SMzee_Kiddies",
+    "description": "Modern e-commerce site for kids' fashion and essentials",
+    "techStack": ["HTML", "CSS", "Javascript"],
+    "image": "/assets/images/sm_zee.png",
+    "liveLink": "https://ibrahimnuhu0.github.io/SM_Zee_kiddies/",
+    "codeLink": "https://github.com/ibrahimnuhu0/SM_Zee_kiddies"
   },
   {
     "id": 2,
-    "title": "Weather App",
-    "description": "A weather forecast app using OpenWeather API and React.",
+    "title": "Little-lemon",
+    "description": "Responsive restaurant website for Little Lemon, built with React and styled for smooth user interaction.",
     "techStack": ["React", "CSS", "API"],
-    "image": "/assets/images/weather-app.png",
-    "liveLink": "https://your-weather-app.netlify.app",
-    "codeLink": "https://github.com/yourusername/weather-app"
+    "image": "/assets/images/little-lemmon.png",
+    "liveLink": "https://little-lemonapp.netlify.app/",
+    "codeLink": "https://github.com/ibrahimnuhu0/little-lemon"
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "description": "An online plant nursery platform offering a wide range of indoor and outdoor plants. Built with responsive design for a smooth shopping experience",
+    "techStack": ["React", "CSS", "API"],
+    "image": "/assets/images/e-plant.png",
+    "liveLink": "https://ibrahimnuhu0.github.io/e-plantShopping/",
+    "codeLink": "https://github.com/ibrahimnuhu0/e-plantShopping"
   }
+  
 ]
