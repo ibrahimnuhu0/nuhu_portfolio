@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Tindog",
+    "description": "Landing page for a Tinder-style app for dogs. Built using Bootstrap.",
+    "techStack": ["HTML", "CSS", "Bootstrap"],
+    "image": "/assets/images/tindog.png",
+    "liveLink": "https://your-tindog-link.netlify.app",
+    "codeLink": "https://github.com/yourusername/tindog"
+  },
+  {
+    "id": 2,
+    "title": "Weather App",
+    "description": "A weather forecast app using OpenWeather API and React.",
+    "techStack": ["React", "CSS", "API"],
+    "image": "/assets/images/weather-app.png",
+    "liveLink": "https://your-weather-app.netlify.app",
+    "codeLink": "https://github.com/yourusername/weather-app"
+  }
+]
