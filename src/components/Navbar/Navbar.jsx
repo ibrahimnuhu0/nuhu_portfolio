@@ -1,4 +1,3 @@
-// File: src/components/Navbar/Navbar.jsx
 import React from "react";
 import "./Navbar.css";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
@@ -24,4 +23,4 @@ const Navbar = ({ currentTheme, toggleTheme }) => {
   );
 };
 
-export default Navbar;  // ← Make sure this line is present
+export default Navbar; 

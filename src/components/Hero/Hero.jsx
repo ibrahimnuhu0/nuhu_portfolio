@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profile from "/assets/images/profile.jpeg";
+import profile from "/assets/images/profile.jpg";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
           <p>I build modern, fast, and responsive web apps using React & JavaScript.</p>
           <div className="hero-buttons">
             <a href="#projects" className="btn primary">View Projects</a>
-            <a href="/meta-cert-badge.png" className="btn outline" download>Download Resume</a>
+            <a href="assets/Resume.pdf" className="btn outline" download>Download Resume</a>
           </div>
         </div>
 
